@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portofolio pribadi Ra Ade Putra — Human Resources, problem solving, refleksi diri, dan ruang diskusi.">
+<title>Ra Ade Putra — Ruang Diskusi & Problem Solving</title>
+<style>
+:root{--paper:#dce8d6;--ink:#151515;--muted:#686868;--line:#d8d8d2;--panel:#efefea;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}a{color:inherit}.container{width:min(var(--max),calc(100% - 48px));margin:auto}
+.topbar{position:sticky;top:0;z-index:10;background:rgba(220,232,214,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:.92rem;font-weight:800;letter-spacing:.08em;text-decoration:none;white-space:nowrap}.navlinks{display:flex;gap:22px;align-items:center;flex-wrap:wrap}.navlinks a{color:var(--muted);font-size:.9rem;text-decoration:none}.navlinks a:hover{color:var(--ink)}
+.eyebrow{margin:0 0 18px;color:var(--muted);font-size:.78rem;font-weight:750;letter-spacing:.14em;text-transform:uppercase}.hero{padding:clamp(76px,12vw,148px) 0 92px;border-bottom:1px solid var(--line)}h1{max-width:850px;margin:0;font-size:clamp(2.65rem,7.3vw,6.4rem);line-height:.99;letter-spacing:-.065em;font-weight:760}.hero-copy{max-width:800px;margin:32px 0 0;font-size:clamp(1.06rem,2vw,1.35rem);color:#353535}.tags{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 34px}.tag{border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:.92rem}.cta{display:inline-flex;align-items:center;gap:12px;padding:13px 18px;background:var(--ink);color:white;text-decoration:none;font-weight:650;border:1px solid var(--ink)}.cta:hover{background:#333}
+section.content-section{padding:82px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:minmax(160px,.7fr) 1.3fr;gap:32px;margin-bottom:42px}.section-number{color:var(--muted);font-size:.8rem;font-weight:750;letter-spacing:.13em}h2{margin:0;font-size:clamp(2rem,4vw,3.5rem);line-height:1.08;letter-spacing:-.045em}.section-intro{max-width:700px;color:var(--muted);font-size:1.12rem;margin:18px 0 0}.principles,.session-grid,.case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{padding:27px;border:1px solid var(--line);background:rgba(255,255,255,.35)}.card-label{color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 30px}h3{font-size:1.35rem;line-height:1.2;margin:0 0 13px;letter-spacing:-.025em}.card p{margin:0;color:#444}
+.framework{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}.framework li{display:grid;grid-template-columns:70px minmax(140px,.55fr) 1.45fr;gap:18px;padding:23px 0;border-bottom:1px solid var(--line);align-items:start}.step{color:var(--muted);font-size:.83rem;font-weight:750}.framework strong{font-size:1.12rem}.framework p{margin:0;color:var(--muted)}.notice{padding:25px;background:var(--panel);border-left:4px solid var(--ink);margin-top:24px}.notice p{margin:0;color:#444}.case-tag{color:var(--muted);font-size:.78rem;letter-spacing:.1em;font-weight:750;margin:0 0 20px}.case-card p+p{margin-top:14px}.ethics{padding-left:1.2rem;margin:0}.ethics li{padding:0 0 12px 5px;color:#393939}
+.contact-panel{display:flex;justify-content:space-between;align-items:end;gap:30px;padding:32px;background:var(--ink);color:white}.contact-panel h2{max-width:620px}.contact-panel p{color:#d1d1d1;margin-bottom:0}.email-link{display:inline-block;margin-top:22px;color:white;font-size:clamp(1rem,2.4vw,1.35rem);text-underline-offset:5px;overflow-wrap:anywhere}footer{padding:25px 0 40px;color:var(--muted);font-size:.86rem;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:760px){.container{width:min(100% - 36px,var(--max))}.nav{padding:17px 0;align-items:flex-start;flex-direction:column;gap:10px}.navlinks{gap:15px}.navlinks a{font-size:.86rem}.hero{padding:75px 0 65px}.section-head{grid-template-columns:1fr;gap:13px;margin-bottom:30px}section.content-section{padding:60px 0}.principles,.session-grid,.case-grid{grid-template-columns:1fr}.card{padding:23px}.framework li{grid-template-columns:42px 1fr;gap:8px 14px}.framework li p{grid-column:2}.contact-panel{align-items:flex-start;flex-direction:column;padding:25px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Responsive navigation improvements */
+.nav{position:relative}
+.menu-toggle{display:none;border:1px solid var(--line);background:transparent;color:var(--ink);padding:9px 12px;font:inherit;font-weight:650;border-radius:4px;cursor:pointer}
+.menu-toggle span{font-size:.9rem}
+.navlinks{align-items:center}
+@media(max-width:760px){
+ .nav{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;padding:14px 0}
+ .brand{white-space:normal;line-height:1.25;font-size:.78rem;letter-spacing:.055em}
+ .menu-toggle{display:inline-flex;align-items:center;gap:7px;justify-self:end}
+ .navlinks{display:none;grid-column:1/-1;width:100%;padding:10px 0 4px;gap:0;flex-direction:column;align-items:stretch}
+ .navlinks.is-open{display:flex}
+ .navlinks a{display:block;padding:11px 4px;border-top:1px solid var(--line);font-size:.95rem}
+ html{scroll-padding-top:100px}
+}
+#formulir .form-main{width:100%;margin:0}
+#formulir .form-main .eyebrow{display:none}
+#formulir .form-main h1{font-size:clamp(2rem,5vw,3rem);letter-spacing:-.045em}
+#formulir .form-main .intro{font-size:1rem}
+#formulir form{background:rgba(255,255,255,.35)}
+#formulir .result{scroll-margin-top:100px}
+
+
+/* Warna lembut kartu bagian 02 */
+#tujuan .card{background:#f1f6ee;border:1px solid #bfd0b8}
+#tujuan .card-label{color:#4f6b4a}
+</style>
+</head>
+<body>
+<header class="topbar">
+<div class="container nav">
+<a class="brand" href="#top">RA ADE PUTRA / RUANG DISKUSI</a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Buka menu">☰ <span>Menu</span></button>
+<nav class="navlinks" id="primary-nav" aria-label="Navigasi utama">
+<a href="#tentang">Tentang</a><a href="#tujuan">Tujuan</a><a href="#pendekatan">Pendekatan</a><a href="#sesi">Sesi diskusi</a><a href="#formulir">Ajukan sesi</a><a href="#batasan">Batasan</a><a href="#kontak">Kontak</a>
+</nav>
+</div></header>
+<main id="top">
+<section class="hero"><div class="container">
+<p class="eyebrow">RUANG DISKUSI · PROBLEM SOLVING</p>
+<h1>Punya masalah yang ingin diurai?<br>Mari berpikir lebih jernih.</h1>
+<p class="hero-copy">Saya Ra Ade Putra. Saya membuka ruang diskusi berbasis problem solving bagi orang yang ingin memahami persoalan dengan lebih jelas, memeriksa asumsi, menimbang pilihan, dan menyusun langkah berikutnya secara lebih terarah. Saya sedang mengembangkan kapasitas di bidang Human Resources, perilaku manusia, dan pengambilan keputusan. Saat ini, sesi tersedia gratis sebagai bagian dari proses latihan, pengembangan, dan penerimaan umpan balik.</p>
+<div class="tags"><span class="tag">Problem solving</span><span class="tag">Refleksi diri</span><span class="tag">Pengambilan keputusan</span></div>
+<a class="cta" href="#sesi">Lihat pilihan sesi diskusi gratis <span aria-hidden="true">↓</span></a> <a class="cta" href="#formulir" style="background:transparent;color:var(--ink)">Ajukan sesi <span aria-hidden="true">↗</span></a>
+</div></section>
+<section class="content-section" id="tentang"><div class="container">
+<div class="section-head"><div class="section-number">01 / TENTANG RUANG INI</div><div><h2>Bukan sekadar mencari jawaban.</h2><p class="section-intro">Ruang ini dirancang untuk membantu kamu merumuskan persoalan, melihat sudut pandang yang mungkin terlewat, dan mempertimbangkan pilihan sebelum menentukan langkah.</p></div></div>
+<div class="principles">
+<article class="card"><p class="card-label">Prinsip 01</p><h3>Kejelasan sebelum kesimpulan</h3><p>Memahami situasi dan tujuan terlebih dahulu sebelum menyusun solusi.</p></article>
+<article class="card"><p class="card-label">Prinsip 02</p><h3>Fakta tidak sama dengan asumsi</h3><p>Mengenali apa yang diketahui, diperkirakan, dan masih perlu diperiksa.</p></article>
+<article class="card"><p class="card-label">Prinsip 03</p><h3>Terbuka terhadap koreksi</h3><p>Pendapat dapat berubah ketika ada informasi dan alasan yang lebih kuat.</p></article>
+<article class="card"><p class="card-label">Prinsip 04</p><h3>Keputusan tetap milik individu</h3><p>Diskusi memperjelas pilihan, bukan mengambil alih tanggung jawab orang lain.</p></article>
+</div></div></section>
+
+<section class="content-section" id="tujuan"><div class="container">
+<div class="section-head"><div class="section-number">02 / SIAPA YANG BISA TERBANTU</div><div><h2>Diskusi untuk masalah yang perlu ditata.</h2>
+<p class="section-intro">Sesi ini cocok jika kamu ingin menata pikiran tentang suatu persoalan, bukan mencari seseorang yang mengambil keputusan untukmu. Kita akan bekerja bersama untuk memperjelas masalah dan memetakan kemungkinan langkah.</p></div></div>
+<div class="principles">
+<article class="card"><p class="card-label">Untuk siapa</p><h3>Orang yang sedang menghadapi keputusan</h3><p>Seseorang yang memiliki beberapa pilihan, merasa bimbang, dan ingin membandingkan prioritas, konsekuensi, serta risiko sebelum memutuskan.</p></article>
+<article class="card"><p class="card-label">Untuk siapa</p><h3>Orang yang merasa masalahnya bercampur aduk</h3><p>Seseorang yang belum bisa merumuskan masalah dengan jelas dan ingin membedakan fakta, asumsi, serta hal yang masih perlu dicari tahu.</p></article>
+<article class="card"><p class="card-label">Untuk siapa</p><h3>Orang yang ingin mengevaluasi diri atau rencana</h3><p>Seseorang yang ingin memahami pola pikir, hambatan, atau tujuan pengembangan diri, lalu mengubahnya menjadi langkah yang bisa dicoba.</p></article>
+<article class="card"><p class="card-label">Untuk siapa</p><h3>Orang yang menghadapi dinamika kerja dan tim</h3><p>Seseorang yang ingin memahami konflik, komunikasi, beban kerja, atau perilaku di lingkungan kerja—dengan memisahkan fakta, ekspektasi, dan peran sebelum menentukan langkah.</p></article>
+</div>
+<div class="notice"><p><strong>Hasil yang ingin dituju:</strong> peserta pulang dengan rumusan masalah yang lebih jelas, pemisahan fakta dan asumsi, gambaran pilihan beserta pertimbangannya, serta satu sampai tiga langkah berikutnya yang realistis.</p>
+<p style="margin-top:12px"><strong>Batasnya:</strong> saya tidak menjanjikan masalah pasti selesai, tidak memutuskan hidup orang lain, dan tidak menggantikan bantuan psikologis, hukum, keuangan, atau layanan profesional lain.</p></div>
+</div></section>
+
+<section class="content-section" id="pendekatan"><div class="container">
+<div class="section-head"><div class="section-number">03 / CARA KERJA</div><div><h2>Bagaimana diskusi berlangsung</h2><p class="section-intro">Kerangka sederhana yang disesuaikan dengan kebutuhan dan konteks persoalanmu.</p></div></div>
+<ol class="framework">
+<li><span class="step">01.</span><strong>Memahami</strong><p>Apa yang terjadi dan apa yang ingin diselesaikan?</p></li>
+<li><span class="step">02.</span><strong>Memisahkan</strong><p>Mana fakta, asumsi, interpretasi, dan hal yang belum diketahui?</p></li>
+<li><span class="step">03.</span><strong>Mengeksplorasi</strong><p>Apa kemungkinan penyebab dan penjelasan alternatif?</p></li>
+<li><span class="step">04.</span><strong>Membandingkan</strong><p>Apa pilihan, manfaat, risiko, dan batasannya?</p></li>
+<li><span class="step">05.</span><strong>Menentukan langkah</strong><p>Apa langkah kecil yang masuk akal untuk dicoba?</p></li>
+</ol></div></section>
+<section class="content-section" id="sesi"><div class="container">
+<div class="section-head"><div class="section-number">04 / PILIH JENIS DISKUSI</div><div><h2>Pilih fokus diskusimu</h2><p class="section-intro">Saat ini sesi tersedia gratis untuk latihan, membangun pengalaman, dan menerima umpan balik. Diskusi dapat dilakukan secara online atau melalui pertemuan tatap muka, sesuai kesepakatan.</p></div></div>
+<div class="session-grid">
+<article class="card"><p class="card-label">01 / Clarity</p><h3>Problem Clarity</h3><p>Mengurai persoalan yang terasa rumit atau bercampur aduk menjadi pertanyaan yang lebih jelas.</p></article>
+<article class="card"><p class="card-label">02 / Decisions</p><h3>Decision Mapping</h3><p>Menata pilihan, kriteria, pertimbangan, risiko, dan konsekuensi.</p></article>
+<article class="card"><p class="card-label">03 / Reflection</p><h3>Self-Reflection</h3><p>Mengevaluasi sudut pandang, asumsi, nilai, dan respons terhadap situasi.</p></article>
+<article class="card"><p class="card-label">04 / Action</p><h3>Action Planning</h3><p>Menyusun satu sampai tiga langkah lanjutan yang realistis dan bisa dievaluasi.</p></article>
+</div>
+<div class="notice"><p><strong>Alur sesi:</strong> menentukan tujuan → memetakan fakta dan asumsi → mengeksplorasi sudut pandang → merangkum wawasan → menyusun langkah berikutnya.</p><p style="margin-top:12px"><strong>Hasil yang diharapkan:</strong> kejelasan tentang masalah, pilihan yang tersedia, hal yang masih perlu dipelajari, dan langkah kecil yang dapat dievaluasi.</p><p style="margin-top:12px">Ini adalah diskusi pengembangan cara berpikir, bukan terapi atau diagnosis. Tidak ada jaminan bahwa masalah akan langsung selesai.</p></div>
+</div></section>
+<section class="content-section" id="contoh"><div class="container">
+<div class="section-head"><div class="section-number">05 / CONTOH PERSOALAN</div><div><h2>Persoalan yang bisa kita petakan</h2><p class="section-intro">Contoh berikut adalah simulasi, bukan testimoni atau hasil konsultasi nyata.</p></div></div>
+<div class="case-grid">
+<article class="card case-card"><p class="case-tag">Simulasi A</p><h3>Sulit mengambil keputusan</h3><p><strong>Pendekatan:</strong> menentukan tujuan, menyusun kriteria, membedakan risiko yang bisa dan tidak bisa dikendalikan, lalu membandingkan konsekuensi.</p><p><strong>Output yang dituju:</strong> peta pilihan, informasi yang masih dibutuhkan, dan langkah kecil untuk menguji asumsi.</p></article>
+<article class="card case-card"><p class="case-tag">Simulasi B</p><h3>Merasa tidak berkembang</h3><p><strong>Pendekatan:</strong> mendefinisikan arti “berkembang”, meninjau bukti, memetakan hambatan, dan memilih eksperimen kecil untuk dievaluasi.</p><p><strong>Output yang dituju:</strong> ukuran kemajuan yang lebih konkret dan rencana percobaan realistis.</p></article>
+</div></div></section>
+<section class="content-section" id="batasan"><div class="container">
+<div class="section-head"><div class="section-number">06 / BATASAN & ETIKA</div><div><h2>Apa yang perlu kamu ketahui sebelum berdiskusi.</h2></div></div>
+<ul class="ethics">
+<li>Saya menyampaikan secara terbuka bahwa layanan ini masih dalam tahap latihan dan pengembangan.</li>
+<li>Saya tidak mengaku sebagai psikolog, terapis, konselor berlisensi, atau ahli profesional tanpa kualifikasi yang relevan.</li>
+<li>Sesi ini tidak memberikan diagnosis dan tidak menggantikan bantuan profesional di bidang kesehatan mental, hukum, atau keuangan.</li>
+<li>Peserta tidak wajib membagikan detail pribadi yang membuat mereka tidak nyaman.</li>
+<li>Informasi diperlakukan dengan hati-hati dan tidak dipublikasikan tanpa izin. Hindari mengirim data sensitif yang tidak diperlukan.</li>
+<li>Peserta bebas menghentikan sesi kapan saja. Saya dapat menyarankan bantuan profesional jika persoalan di luar kapasitas saya.</li>
+</ul></div></section>
+
+<section class="content-section" id="formulir">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-number">07 / AJUKAN SESI</div>
+      <div>
+        <h2>Mulai dengan menceritakan persoalanmu.</h2>
+        <p class="section-intro">Isi formulir berikut secukupnya. Informasi ini membantu saya memahami topik dan menyiapkan diskusi yang lebih terarah.</p>
+      </div>
+    </div>
+    <div id="form-diskusi">
+      <style>
+#form-diskusi{--form-bg:#dce8d6;--form-ink:#171717;--form-muted:#686868;--form-line:#d8d8d2;--form-panel:#fff;color:var(--form-ink)}
+#form-diskusi *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6}
+#form-diskusi .form-main{width:min(760px,calc(100% - 32px));margin:48px auto 70px}.eyebrow{font-size:.78rem;letter-spacing:.14em;font-weight:750;color:var(--muted);text-transform:uppercase}
+#form-diskusi h1{font-size:clamp(2.2rem,7vw,4rem);letter-spacing:-.055em;line-height:1.04;margin:14px 0 20px}.intro{font-size:1.08rem;color:#444}.note{background:#eeeee9;border-left:4px solid var(--ink);padding:18px 20px;margin:26px 0}
+#form-diskusi form{background:var(--panel);border:1px solid var(--line);padding:clamp(20px,5vw,38px)}fieldset{border:0;padding:0;margin:0 0 28px}legend{font-size:1.15rem;font-weight:750;margin-bottom:15px}.field{margin:0 0 19px}label,.field-label{display:block;font-weight:650;margin-bottom:7px}small,.hint{display:block;color:var(--muted);font-size:.88rem;margin-top:5px}
+#form-diskusi input[type=text], #form-diskusi input[type=email], #form-diskusi input[type=date], #form-diskusi select, #form-diskusi textarea{width:100%;border:1px solid #bdbdb6;border-radius:4px;background:white;padding:12px 13px;font:inherit;color:var(--ink)}textarea{min-height:115px;resize:vertical}input:focus,select:focus,textarea:focus{outline:2px solid #555;outline-offset:2px}
+#form-diskusi .options{display:grid;gap:10px}.options label{font-weight:450;display:flex;align-items:flex-start;gap:10px;margin:0}.options input{margin-top:6px;accent-color:#171717}
+#form-diskusi button{background:var(--ink);color:white;border:1px solid var(--ink);font:inherit;font-weight:700;padding:13px 18px;cursor:pointer}button:hover{background:#333}.actions{display:flex;gap:12px;flex-wrap:wrap}.secondary{background:white;color:var(--ink)}.result{display:none;margin-top:22px;padding:18px;border:1px solid var(--line);background:#f0f0eb;overflow-wrap:anywhere}.result pre{white-space:pre-wrap;font:inherit;margin:12px 0}.foot{font-size:.85rem;color:var(--muted);margin-top:22px}
+@media(max-width:520px){main{margin-top:30px}form{padding:20px}.actions button{width:100%}}</style>
+      
+<p class="eyebrow">AJUKAN SESI / FORMULIR DISKUSI</p>
+<h1>Formulir Pengajuan Sesi Diskusi</h1>
+<p class="intro">Gunakan formulir ini untuk mengajukan sesi diskusi berbasis problem solving. Jawabanmu membantu saya memahami topik yang ingin dibahas dan mempersiapkan sesi yang lebih terarah.</p>
+<div class="note"><strong>Informasi sesi</strong><br>Sesi saat ini gratis untuk latihan, pengembangan pengalaman, dan umpan balik. Diskusi dapat dilakukan secara online atau tatap muka sesuai kesepakatan. Ini bukan layanan terapi, diagnosis, atau pengganti bantuan profesional.</div>
+
+<form id="requestForm">
+<fieldset>
+<legend>01 / Informasi dasar</legend>
+<div class="field"><label for="name">Nama panggilan *</label><input id="name" name="name" type="text" required maxlength="80" placeholder="Nama yang nyaman digunakan"></div>
+<div class="field"><label for="contact">Kontak yang bisa dihubungi *</label><input id="contact" name="contact" type="text" required maxlength="120" placeholder="Email atau username Instagram"><small>Gunakan satu kontak yang nyaman untuk menerima balasan.</small></div>
+<div class="field"><label for="age">Konfirmasi usia *</label><select id="age" name="age" required><option value="">Pilih jawaban</option><option>Saya berusia 18 tahun atau lebih</option><option>Saya berusia di bawah 18 tahun</option></select><small>Untuk tahap awal, sesi ini ditujukan bagi peserta berusia 18 tahun ke atas.</small></div>
+</fieldset>
+
+<fieldset>
+<legend>02 / Topik diskusi</legend>
+<div class="field"><span class="field-label">Apa yang ingin kamu diskusikan? *</span><div class="options">
+<label><input type="radio" name="topic" value="Memperjelas masalah" required> Memperjelas masalah yang terasa rumit</label>
+<label><input type="radio" name="topic" value="Pengambilan keputusan"> Memetakan pilihan dan mengambil keputusan</label>
+<label><input type="radio" name="topic" value="Refleksi diri dan tujuan"> Refleksi diri, tujuan, atau pengembangan diri</label>
+<label><input type="radio" name="topic" value="Lainnya"> Lainnya</label>
+</div></div>
+<div class="field"><label for="summary">Ceritakan secara singkat situasi yang ingin dibahas *</label><textarea id="summary" name="summary" required maxlength="1200" placeholder="Apa yang sedang terjadi? Ceritakan secukupnya, tanpa perlu menuliskan detail pribadi yang sensitif."></textarea><small>Maksimal 1.200 karakter. Tidak perlu mencantumkan nama lengkap orang lain atau informasi rahasia.</small></div>
+<div class="field"><label for="goal">Apa yang ingin kamu dapatkan dari diskusi ini? *</label><textarea id="goal" name="goal" required maxlength="800" placeholder="Contoh: ingin memahami pilihan yang tersedia atau menentukan langkah awal."></textarea></div>
+<div class="field"><label for="tried">Apa yang sudah kamu coba sejauh ini? (opsional)</label><textarea id="tried" name="tried" maxlength="800" placeholder="Jika ada, ceritakan langkah atau pendekatan yang sudah dicoba."></textarea></div>
+</fieldset>
+
+<fieldset>
+<legend>03 / Preferensi sesi</legend>
+<div class="field"><span class="field-label">Format yang kamu pilih *</span><div class="options">
+<label><input type="radio" name="format" value="Online" required> Online</label>
+<label><input type="radio" name="format" value="Tatap muka"> Tatap muka</label>
+<label><input type="radio" name="format" value="Fleksibel"> Fleksibel / ingin dibicarakan dulu</label>
+</div></div>
+<div class="field"><label for="availability">Waktu yang biasanya tersedia (opsional)</label><input id="availability" name="availability" type="text" maxlength="180" placeholder="Contoh: hari kerja setelah pukul 19.00"></div>
+<div class="field"><label for="extra">Hal lain yang perlu saya ketahui? (opsional)</label><textarea id="extra" name="extra" maxlength="500" placeholder="Tidak perlu membagikan informasi sensitif."></textarea></div>
+</fieldset>
+
+<fieldset>
+<legend>04 / Persetujuan</legend>
+<div class="options">
+<label><input type="checkbox" id="consent" required> Saya memahami bahwa sesi ini merupakan diskusi pengembangan cara berpikir, bukan terapi, diagnosis, atau layanan profesional berlisensi. *</label>
+<label><input type="checkbox" id="privacy" required> Saya setuju memberikan informasi secukupnya untuk keperluan pengajuan sesi dan memahami bahwa saya tidak perlu membagikan informasi sensitif. *</label>
+</div>
+</fieldset>
+<div class="actions"><button type="submit">Siapkan pengajuan</button><button type="reset" class="secondary">Kosongkan formulir</button></div>
+<div id="result" class="result" aria-live="polite"><strong>Pengajuan sudah dirangkum.</strong><p>Formulir HTML ini tidak mengirim jawaban secara otomatis. Salin ringkasan di bawah lalu kirimkan melalui email atau DM Instagram kepada Ra Ade Putra.</p><pre id="summaryOutput"></pre><div class="actions"><button type="button" id="copyBtn">Salin ringkasan</button><a id="emailBtn" href="mailto:adeputra021002@gmail.com?subject=Pengajuan%20Sesi%20Diskusi" style="align-self:center">Buka email</a></div></div>
+</form>
+<p class="foot">Mohon jangan gunakan formulir ini untuk keadaan darurat atau kebutuhan bantuan profesional yang mendesak.</p>
+
+    </div>
+  </div>
+</section>
+
+<section class="content-section" id="kontak"><div class="container"><div class="contact-panel">
+<div><p class="eyebrow" style="color:#bdbdbd">08 / KONTAK</p><h2>Punya persoalan yang ingin kamu bahas?</h2><p>Untuk bertanya atau mengajukan sesi diskusi gratis, silakan hubungi saya melalui email. Ceritakan secara singkat topik yang ingin dibahas—tidak perlu mengirim informasi pribadi yang sensitif.</p><a class="email-link" href="mailto:adeputra021002@gmail.com">adeputra021002@gmail.com</a></div>
+<p>Ra Ade Putra<br>Palembang, Sumatera Selatan</p>
+</div></div></section>
+</main>
+<footer class="container"><span>© 2026 Ra Ade Putra · Ruang Diskusi & Problem Solving</span><span>Ruang yang berkembang seiring proses belajar dan umpan balik.</span></footer>
+<script>
+
+const form=document.getElementById('requestForm');
+const result=document.getElementById('result');
+const output=document.getElementById('summaryOutput');
+function val(name){const el=form.elements[name];if(!el)return '';if(el instanceof RadioNodeList)return el.value||'—';return el.value.trim()||'—';}
+form.addEventListener('submit',function(e){
+ e.preventDefault();
+ if(val('age')!=='Saya berusia 18 tahun atau lebih'){alert('Untuk tahap awal, sesi ini ditujukan bagi peserta berusia 18 tahun ke atas.');return;}
+ const text=`PENGAJUAN SESI DISKUSI — RA ADE PUTRA\n\nNama panggilan: ${val('name')}\nKontak: ${val('contact')}\nTopik: ${val('topic')}\nSituasi yang ingin dibahas:\n${val('summary')}\n\nHasil yang diharapkan:\n${val('goal')}\n\nYang sudah dicoba:\n${val('tried')}\n\nFormat pilihan: ${val('format')}\nKetersediaan waktu: ${val('availability')}\nCatatan tambahan: ${val('extra')}\n\nPersetujuan: peserta memahami batasan dan tujuan sesi diskusi.`;
+ output.textContent=text;result.style.display='block';result.scrollIntoView({behavior:'smooth',block:'start'});
+ document.getElementById('emailBtn').href='mailto:adeputra021002@gmail.com?subject='+encodeURIComponent('Pengajuan Sesi Diskusi')+'&body='+encodeURIComponent(text);
+});
+document.getElementById('copyBtn').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(output.textContent);alert('Ringkasan disalin.');}catch(e){alert('Silakan pilih dan salin teks ringkasan secara manual.');}});
+form.addEventListener('reset',()=>{result.style.display='none';});
+
+</script>
+
+<script>
+(function(){
+ const toggle=document.querySelector('.menu-toggle');
+ const nav=document.getElementById('primary-nav');
+ if(!toggle||!nav)return;
+ toggle.addEventListener('click',function(){
+   const opened=nav.classList.toggle('is-open');
+   toggle.setAttribute('aria-expanded',String(opened));
+   toggle.setAttribute('aria-label',opened?'Tutup menu':'Buka menu');
+   toggle.firstChild.textContent=opened?'✕ ':'☰ ';
+ });
+ nav.querySelectorAll('a').forEach(function(link){
+   link.addEventListener('click',function(){
+     nav.classList.remove('is-open');
+     toggle.setAttribute('aria-expanded','false');
+     toggle.setAttribute('aria-label','Buka menu');
+     toggle.firstChild.textContent='☰ ';
+   });
+ });
+})();
+</script>
+
+</body></html>
